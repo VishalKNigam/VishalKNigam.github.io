@@ -41,8 +41,8 @@ function transform_hamburger(){
 
 //! ============= resume button ==========
 document.getElementById("resume-button-1").addEventListener("click", function() {
-    var link = document.getElementById("resume-link-1").href;
-    window.open(link, '_blank');
+    // var link = document.getElementById("resume-link-1").href;
+    window.open("https://drive.google.com/file/d/1fLFMYiqcgVeSrmY1X0bEIpYvd0OkFDgF/view?usp=sharing", '_blank');
 });
 // document.getElementById("resume-link-1").onclick = () => {
 //     window.open("https://drive.google.com/file/d/19YoGmm8AkAniS2FWrFwDLUtePpgTjK2J/view?usp=sharing");
