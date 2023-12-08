@@ -40,9 +40,13 @@ function transform_hamburger(){
 }
 
 //! ============= resume button ==========
-document.getElementById("resume-link-1").onclick = () => {
-    window.open("https://drive.google.com/file/d/19YoGmm8AkAniS2FWrFwDLUtePpgTjK2J/view?usp=sharing");
-}
+document.getElementById("resume-button-1").addEventListener("click", function() {
+    var link = document.getElementById("resume-link-1").href;
+    window.open(link, '_blank');
+});
+// document.getElementById("resume-link-1").onclick = () => {
+//     window.open("https://drive.google.com/file/d/19YoGmm8AkAniS2FWrFwDLUtePpgTjK2J/view?usp=sharing");
+// }
   
 document.getElementById("resume-link-2").onclick = () => {
     window.open("https://drive.google.com/file/d/19YoGmm8AkAniS2FWrFwDLUtePpgTjK2J/view?usp=sharing");
