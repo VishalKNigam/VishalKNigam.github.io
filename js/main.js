@@ -49,7 +49,7 @@ document.getElementById("resume-button-1").addEventListener("click", function() 
 // }
   
 document.getElementById("resume-link-2").onclick = () => {
-    window.open("https://drive.google.com/file/d/19YoGmm8AkAniS2FWrFwDLUtePpgTjK2J/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1fLFMYiqcgVeSrmY1X0bEIpYvd0OkFDgF/view?usp=sharing", '_blank');
 }
 
 // document.getElementById("resume-button-2").onclick = () => {
